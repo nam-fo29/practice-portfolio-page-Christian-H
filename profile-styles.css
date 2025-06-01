@@ -1,0 +1,54 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+header>p {
+    font-size: large;
+    color: aliceblue;
+}
+
+body {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkcyan;
+    border: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: groove;
+    border-color: goldenrod;
+}
+
+.list-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.unordered-list,
+.ordered-list {
+    display: block;
+    text-align: justify;
+    margin: 20px auto;
+    width: max-content:
+}
+
+.ordered-list h2 {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 34px;
+    right: 32px;
+    border-style: ridge;
+    border-color: midnightblue;
+}
+
+footer {
+    color: orange;
+}
